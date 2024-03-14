@@ -72,7 +72,7 @@ body {
   background: url("../img/ritz_carlton.png") center/cover no-repeat; }
 
 .home-slide-2 {
-  background: url("../img/ritz_carlton2.png") center/cover no-repeat; }
+  background: url("/img/ritz_carlton2.png") center/cover no-repeat; }
 
 .home__body {
   position: absolute;
