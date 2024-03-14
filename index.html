@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=»viewport» content=»width=device-width, initial-scale=1.0, user-scalable=no»>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Montserrat:wght@100..900&family=Noto+Sans:wdth@62.5..100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <main class="main">
+          <div class="container">
+            <header class="header">
+              <div class="header__body">
+                  <div class="header__logo">
+                      <a href="#home"><img src="img/Logo.png" alt="logo"></a>
+                  </div>
+                  <div class="header__iteraction">
+                      <nav class="header__menu menu">
+                          <a href="#home" class="menu__item">Home</a>
+                          <a href="#about-us" class="menu__item">About us</a>
+                          <a href="#projects" class="menu__item">Project</a>
+                          <a href="#news" class="menu__item">News</a>
+                          <a href="#footer" class="menu__item">Contacts</a>
+                      </nav>
+                      <div class="header__lang"></div>
+                  </div>
+              </div>
+            </header>
+            <article class="home slide" id="home">
+                <div class="swiper home__slider">
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide home__slide home-slide-1">
+                        <div class="home__body">
+                          <div class="home__info">
+                            <div class="home__details">
+                              <div class="home__date">December, 2004</div>
+                              <h3 class="home__title subtitle">Ritz carlton Moscow</h3>
+                            </div>
+                            <p class="home__text">International Five Star Hotel with underground parking area, which consists of 11 superstructure and 5 substructure floors.</p>
+                          </div>
+                          <button class="home__button">Go to project</button>
+                        </div>
+                      </div>
+                      <div class="swiper-slide home__slide home-slide-2">
+                        <div class="home__body">
+                          <div class="home__info">
+                            <div class="home__detail">
+                              <div class="home__date">November, 2008</div>
+                              <h3 class="home__title">Moscow</h3>
+                            </div>
+                            <p class="home__text">International Five Star Hotel with underground parking area, which consists of 11 superstructure and 5 substructure floors.</p>
+                          </div>
+                          <button class="home__button">Go to project</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+              
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="home_buttons">
+                      <div class="swiper-button-prev home_button home_button-prev" id="swiper-button-prev"></div>
+                      <div class="swiper-button-next home_button home_button-prev" id="swiper-button-next"></div>
+                    </div> -->
+              
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->                    
+                  </div>
+            </article>
+            <article class="about-us slide" id="about-us">
+              <h2 class="about-us__title title">About us</h2>
+
+
+              <div class="about-us__tabs tabs">
+                <ul class="tabs__container">
+                  <li data-tab="tab-1" class="tab__button">Palmira Group</li>
+                  <li data-tab="tab-2" class="tab__button">Field of Expertise</li>
+                  <li data-tab="tab-3" class="tab__button">Vision and Walues</li>
+                  <li data-tab="tab-4" class="tab__button">Group Companies</li>
+                  <li data-tab="tab-5" class="tab__button">Quality Management</li>
+                </ul>
+                <div class="tabs__wrapper">
+                  <div id="tab-1" class="tab__body hidden-tab-body tab-1">
+                    <div class="tab__content">
+                      <h3 class="tab__title">Palmira Group, Palmira and Mira</h3>
+                      <p class="tab__text">Construction are Istanbul & Moscow-based, International Construction Companies, founded in 2005.</p>
+                    </div>
+                  </div>
+                  <div id="tab-2" class="tab__body hidden-tab-body tab-2">
+                    <div class="tab__content">
+                      <h3 class="tab__title">our Field of Expertise</h3>
+                      <div class="tab__flex-container">
+                        <div class="tab__block">
+                          <img src="img/Construction.svg" alt="" class="tab__image">
+                          <h5 class="tab__subtitle">Construction</h5>
+                          <p class="tab__text">Our proven experience in international construction business at world standards.</p>
+                        </div>
+                        <div class="tab__block">
+                          <img src="img/Purchasing.svg" alt="" class="tab__image">
+                          <h5 class="tab__subtitle">Purchasing</h5>
+                          <p class="tab__text">Our policy to purchase materials with required quality from all over the world with minimum cost and on time.</p>
+                        </div>
+                        <div class="tab__block">
+                          <img src="img/Technology.svg" alt="" class="tab__image">
+                          <h5 class="tab__subtitle">Technology</h5>
+                          <p class="tab__text">We make use of all kinds of opportunities of technology in all our activities, from bid preparation to material procurement, from design to planning and communication with worksite.</p>
+                        </div>
+                        <div class="tab__block">
+                          <img src="img/Enginering.svg" alt="" class="tab__image">
+                          <h5 class="tab__subtitle">Engineering</h5>
+                          <p class="tab__text">Our vast and growing experience in engineering projects.</p>
+                        </div>
+                        <div class="tab__block">
+                          <img src="img/PM.svg" alt="" class="tab__image">
+                          <h5 class="tab__subtitle">Project Management</h5>
+                          <p class="tab__text">Efficient team work and coordination at information flow help us reach the desired results.</p>
+                        </div>
+                        <div class="tab__block">
+                          <img src="img/Safety.svg" alt="" class="tab__image">
+                          <h5 class="tab__subtitle">Safety</h5>
+                          <p class="tab__text">The essential key element of all our activities.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="tab-3" class="tab__body hidden-tab-body tab-3">
+                    <div class="tab__content">
+                      <div class="tab__block">
+                        <h3 class="tab__title">Vision</h3>
+                        <p class="tab__text">To become the first and recognized company in the International business world in the fields of Engineering Construction and Project Management. The shape we give to sand, cement, iron will mediate humans to live a healthy, comfortable and safe life. This dream makes our profession enjoyable and exciting, motivates us to create better living conditions for all humans and stimulates us to make it come true time and again.</p>
+                      </div>
+                      <div class="tab__block">
+                        <h3 class="tab__title">Our Role</h3>
+                        <p class="tab__text">We believe that "human" composes the key essence of all kinds of institutionalization. To the question "Who will be there tomorrow?" we answer briefly: "Those who play a team game and those who play it fairly." We believe that a</p>
+                        <p class="tab__text">"team game" can be played with an effective team work creating synergy due to correct, healthy communication flow with this awareness. In every project we carry out in the international arena we work with the awareness that we are developing very significant acts for our country's credibility and safety. We keep on working with the belief that we will become one of the most competent organizations of our country at the time when our country reaches superior position in the world.</p>
+                      </div>
+                      
+                      <div class="tab__block">
+                        <h3 class="tab__title">Values</h3>
+                        <p class="tab__text">Business ethics: Integrity, honesty and fairness are three fundamental elements of our company policies. Safety:</p>
+                        <p class="tab__text">Occupational health and safety are the basis of our quality policies. Our goal is zero accident. Continuity: We act by planning the future of our company as well as our business partners. Dynamism and Professional Responsibility.</p>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div id="tab-4" class="tab__body hidden-tab-body tab-4">
+                    <div class="tab__content">
+                      <div class="tab__info tab__block">
+                        <h3 class="tab__title">Our Group of Companies</h3>
+                        <p class="tab__text"><span>Our Group of Companies</span> is the leader of the sector with our Qualified and Skilled Personnel at different fields, particularly Construction, Finance and Service Sectors, and with our Efficient Process Management.</p>
+                      </div>
+                      <div class="tab__companies tab__block">
+                        <img src="img/Logo.png" alt="company" class="tab__company">
+                        <img src="img/Company-2.png" alt="company" class="tab__company">
+                        <img src="img/Company-3.png" alt="company" class="tab__company">
+                      </div>
+                      
+                      <div class="tab__characteristics tab__block">
+                        <div class="tab__characteristic">
+                          <img class="characteristic__image" src="img/Result-oriented.svg" alt="icon">
+                          <p class="characteristic__title">Result-oriented </p>
+                        </div>
+                        <div class="tab__characteristic">
+                          <img class="characteristic__image" src="img/Quality.svg" alt="icon">
+                          <p class="characteristic__title">Quality</p>
+                        </div>
+                        <div class="tab__characteristic">
+                          <img class="characteristic__image" src="img/HES.svg" alt="icon">
+                          <p class="characteristic__title">Hight engineering service</p>
+                        </div>
+                        <div class="tab__characteristic">
+                          <img class="characteristic__image" src="img/Custumer.svg" alt="icon">
+                          <p class="characteristic__title">Costumer satisfaction</p>
+                        </div>
+                        <div class="tab__characteristic">
+                          <img class="characteristic__image" src="img/Solution.svg" alt="icon">
+                          <p class="characteristic__title">Customized solutions</p>
+                        </div>
+                        <div class="tab__characteristic">
+                          <img class="characteristic__image" src="img/Trust.svg" alt="icon">
+                          <p class="characteristic__title">Trust</p>
+                        </div>
+                       
+                      </div>
+
+                    </div>
+                  </div>
+                  <div id="tab-5" class="tab__body hidden-tab-body tab-5">
+                    <div class="tab__content">
+                      <div class="tab__block">
+                        <h3 class="tab__title">Quality Management</h3>
+                        
+                        <p class="tab__text">Mira Construction, Palmira and Palmira Group's Quality Management System has been established based on the principles of minimum bureaucracy and documentation in order to be able to make and implement decisions quickly. These features have been achieved through project-based management and process approaches specified below and integrated into the quality management system successfully:</p>
+                        <ul class="tab__list">
+                          <li>Understand the needs of existing and future customers, meet customer needs and make effort to provide services beyond customer expectations,</li>
+                          <li>Create and protect an environment enabling employees' full integration in order to realize the company's goals, while leading the way to create a collective purpose and direction,</li>
+                          <li>Manage operations and related resources as a single process in order to achieve the desired results more efficiently,</li>
+                          <li>Ensure continuous improvement of general performance of our group companies as a permanent goal of the Company organization,</li>
+                          <li>Take effective decisions based on analysis of data and information,</li>
+                          <li>Establish mutually beneficial relationships with the suppliers in order to create common values.</li>
+                        </ul>
+                      </div>
+                      <div class="tab__block">
+                        <h3 class="tab__title">Our Field of Activity</h3>
+                        <p class="tab__text">We operate as contractor and/or investor for the construction and operation of important industrial, commercial and infrastructure facilities, both domestic and overseas.</p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </article>
+            <article class="projects slide" id="projects">
+              <h1 class="projects__title title">Projects</h1>
+              
+              <div class="projects__slider swiper">
+                <!-- Additional required wrapper -->
+                <div class="projects__wrapper swiper-wrapper">
+                <!-- Slides -->
+                    <div class="projects__slide swiper-slide">
+                        <div class="projects__content">
+                            <div class="projects__body">
+                                <h3 class="projects__subtitle subtitle">Ritz carlton Moscow</h3>
+                                <dl class="projects__description">
+                                    <dt class="projects__termin">Location </dt>
+                                    <dd class="projects__detail">Moscow, Russian Federation</dd>
+                                    <dt class="projects__termin">Start Date</dt>
+                                    <dd class="projects__detail">December, 2004</dd>
+                                    <dt class="projects__termin">Completion Date</dt>
+                                    <dd class="projects__detail">August, 2005</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__slide swiper-slide">
+                        <div class="projects__content">
+                            <div class="projects__body">
+                                <h3 class="projects__subtitle subtitle">Ritz carlton Moscow</h3>
+                                <dl class="projects__description">
+                                    <dt class="projects__termin">Location </dt>
+                                    <dd class="projects__detail">Moscow, Russian Federation</dd>
+                                    <dt class="projects__termin">Start Date</dt>
+                                    <dd class="projects__detail">December, 2004</dd>
+                                    <dt class="projects__termin">Completion Date</dt>
+                                    <dd class="projects__detail">August, 2005</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__slide swiper-slide">
+                        <div class="projects__content">
+                            <div class="projects__body">
+                                <h3 class="projects__subtitle subtitle">Ritz carlton Moscow</h3>
+                                <dl class="projects__description">
+                                    <dt class="projects__termin">Location </dt>
+                                    <dd class="projects__detail">Moscow, Russian Federation</dd>
+                                    <dt class="projects__termin">Start Date</dt>
+                                    <dd class="projects__detail">December, 2004</dd>
+                                    <dt class="projects__termin">Completion Date</dt>
+                                    <dd class="projects__detail">August, 2005</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__slide swiper-slide">
+                        <div class="projects__content">
+                            <div class="projects__body">
+                                <h3 class="projects__subtitle subtitle">Ritz carlton Moscow</h3>
+                                <dl class="projects__description">
+                                    <dt class="projects__termin">Location </dt>
+                                    <dd class="projects__detail">Moscow, Russian Federation</dd>
+                                    <dt class="projects__termin">Start Date</dt>
+                                    <dd class="projects__detail">December, 2004</dd>
+                                    <dt class="projects__termin">Completion Date</dt>
+                                    <dd class="projects__detail">August, 2005</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+            
+                <!-- If we need navigation buttons -->
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+            
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+              </div>
+            </article>
+            <article class="news slide" id="news">
+              <h1 class="news__title title">News</h1>
+              <div class="news__flex-container">
+                <div class="news__blocks">
+                  <div class="news__block">
+                    <div class="news__image">
+                      <img src="img/news.png" alt="Image">
+                    </div>
+                    <div class="news__content">
+                      <h4 class="news__subtitle">Ritz carlton Moscow</h4>
+                      <p class="news__text">Palmira Group is an Istanbul / Moscow-based, registered and licensed</p>
+                      <div class="news__date">12.03.2024</div>
+                      <a href="" class="news__link">Read more</a>
+                    </div>
+                  </div>
+                  <div class="news__block">
+                    <div class="news__image">
+                      <img src="img/news.png" alt="Image">
+                    </div>
+                    <div class="news__content">
+                      <h4 class="news__subtitle">Ritz carlton Moscow</h4>
+                      <p class="news__text">Palmira Group is an Istanbul / Moscow-based, registered and licensed</p>
+                      <div class="news__date">12.03.2024</div>
+                      <a href="" class="news__link">Read more</a>
+                    </div>
+                  </div>
+                  <div class="news__block">
+                    <div class="news__image">
+                      <img src="img/news.png" alt="Image">
+                    </div>
+                    <div class="news__content">
+                      <h4 class="news__subtitle">Ritz carlton Moscow</h4>
+                      <p class="news__text">Palmira Group is an Istanbul / Moscow-based, registered and licensed</p>
+                      <div class="news__date">12.03.2024</div>
+                      <a href="" class="news__link">Read more</a>
+                    </div>
+                  </div>
+                  <div class="news__block">
+                    <div class="news__image">
+                      <img src="img/news.png" alt="Image">
+                    </div>
+                    <div class="news__content">
+                      <h4 class="news__subtitle">Ritz carlton Moscow</h4>
+                      <p class="news__text">Palmira Group is an Istanbul / Moscow-based, registered and licensed</p>
+                      <div class="news__date">12.03.2024</div>
+                      <a href="" class="news__link">Read more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </article>
+            <footer id="footer" class="footer slide">
+              <div class="footer__info">
+                <div class="footer__flex-container">
+                  <div class="footer__about-us footer__flex-element">
+                    <div class="footer__logo">
+                      <img src="img/Logo.png" alt="logo">
+                    </div>
+                    <div class="footer__text">Construction are Istanbul & Moscow-based, International Construction Companies, founded in 2005.</div>
+                  </div>
+                  <div class="footer__contacts footer__flex-element">
+                    <div class="footer__contact-title">Contact</div>
+                    <div class="footer__address">121087, Russia, Moscow, Beregovoy passage, 5A</div>
+                    <div class="footer__phone-number">+7 (499) 333-44-44</div>
+                    <div class="footer__email">info@palmiragroup.com</div>
+                  </div>
+                  <nav class="footer__nav footer__flex-element">
+                    <a href="#home" class="nav__item">Home</a>
+                    <a href="#about-us" class="nav__item">About us</a>
+                    <a href="#projects" class="nav__item">Project</a>
+                    <a href="#news" class="nav__item">News</a>
+                    <a href="#footer" class="nav__item">Contacts</a>
+                  </nav>
+                </div>
+                <div class="footer__copyright">Copyright © 2023 Palmira Group</div>
+              </div>
+              <div class="footer__social-media">
+                <a href="#"><img src="img/WA.svg" alt="what's app"></a>
+                <a href="#"><img src="img/FB.svg" alt="facebook"></a>
+                <a href="#"><img src="img/Inst.svg" alt="instagram"></a>
+                <a href="#"><img src="img/TG.svg" alt="telegram"></a>
+              </div>
+              
+            </footer>
+
+
+          </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/tabs.js"></script>
+</body>
+</html>
