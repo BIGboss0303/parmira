@@ -69,10 +69,10 @@ body {
   width: 100vw; }
 
 .home-slide-1 {
-  background: url("../../img/ritz_carlton.png") center/cover no-repeat; }
+  background: url("../img/ritz_carlton.png") center/cover no-repeat; }
 
 .home-slide-2 {
-  background: url("../../img/ritz_carlton2.png") center/cover no-repeat; }
+  background: url("../img/ritz_carlton2.png") center/cover no-repeat; }
 
 .home__body {
   position: absolute;
@@ -164,7 +164,7 @@ body {
 .about-us {
   height: 100vh;
   background-color: #fafafa;
-  background-image: url("../../img/about-us_bgi.png");
+  background-image: url("../img/about-us_bgi.png");
   background-repeat: no-repeat;
   background-position: 27.248vw;
   background-size: cover;
@@ -379,7 +379,7 @@ body {
   margin-top: 10.1vh; }
 
 .projects__content {
-  background: url("../../img/ritz_carlton.png") 0 0/cover no-repeat;
+  background: url("../img/ritz_carlton.png") 0 0/cover no-repeat;
   height: 100%;
   width: 77%;
   position: relative; }
